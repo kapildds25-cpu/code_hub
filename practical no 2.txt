@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Hut Menu</title>
+</head>
+
+<body>
+
+<h1><b>PIZZA HUT</b></h1>
+
+<p><i>Welcome to <strong>Pizza Hut</strong>. Enjoy our tasty pizzas and burgers!</i></p>
+
+<!-- Online pizza image to avoid errors -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" 
+alt="Pizza Image" width="300">
+
+<h2><mark>Regular (Veg Menu)</mark></h2>
+<ul>
+<li><b>Paneer Cheese Pizza</b> <small>- Soft paneer with extra cheese</small></li>
+<li><em>Cheese Corn Pizza</em> <small>- Sweet corn with creamy cheese</small></li>
+<li><strong>Margherita Pizza</strong> <small>- Classic tomato and cheese</small></li>
+<li>Cheese Burger <sup>New</sup></li>
+</ul>
+
+<h2><mark>Non-Veg Menu</mark></h2>
+<ul>
+<li><b>Chicken Pizza</b> <small>- Spicy chicken topping</small></li>
+<li><em>Chicken Margherita Pizza</em></li>
+<li>Chicken Burger</li>
+</ul>
+
+<p>
+Special Offer Price: <del>₹299</del> <ins>₹199</ins>
+</p>
+
+<p>
+Pizza Size: 6 inch<sup>2</sup><br>
+Fun Formula: H<sub>2</sub>O + Pizza = Happiness 😄
+</p>
+
+</body>
+</html>
