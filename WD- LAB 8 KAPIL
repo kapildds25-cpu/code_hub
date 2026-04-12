@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>MY BIKE GALLERY</h1>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="https://cdn-s3.autocarindia.com/RoyalEnfield/Continental-GT-650/_AAB9339.JPG?w=728&q=75/400/300?1">
+        </div>
+
+        <div class="card">
+            <img src="https://cdn-s3.autocarindia.com/suzuki/V-Strom%20800DE/_AAB2326.JPG?w=640&q=75/350/250?2">
+        </div>
+
+        <div class="card">
+            <img src="https://superbikestore.in/cdn/shop/products/akrapovic_evolution_exhaust_system_kawasaki_h2_h2_r2015_750x750_1.jpg?v=1550828713/350/300?3">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEcMiuICrPCOIM0stpPVTnjcz24AiqoTNhg&s/400/300?4">
+        </div>
+    </div>
+
+</body>
+</html>
