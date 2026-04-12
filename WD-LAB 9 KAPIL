@@ -1,0 +1,80 @@
+<!DOCTYPE html><html>
+<head>
+    <title>Simple Responsive Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
+    body {
+        font-family: Arial;
+        margin: 0;
+    }
+
+    header {
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav {
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 1;
+        padding: 20px;
+        margin: 10px;
+        background-color: lightgray;
+        text-align: center;
+    }
+
+    /* Animation + Transformation */
+    .box:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+        .container {
+            flex-direction: column;
+        }
+    }
+</style>
+
+</head><body><header>
+    <h1>My Webpage</h1>
+    <p>Simple Responsive Design</p>
+</header><nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav><div class="container">
+    <div class="box">
+        <h2>Column 1</h2>
+        <p>This is first column</p>
+    </div><div class="box">
+    <h2>Column 2</h2>
+    <p>This is second column</p>
+</div>
+
+<div class="box">
+    <h2>Column 3</h2>
+    <p>This is third column</p>
+</div>
+
+</div><footer style="background:black; color:white; text-align:center; padding:10px;">
+    <p>© 2026 Simple Webpage</p>
+</footer></body>
+</html>
