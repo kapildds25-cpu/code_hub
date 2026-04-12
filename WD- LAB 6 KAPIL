@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Registration Form</title> 
+</head> 
+<body> 
+
+<h3>Scholarship / Seminar Registration Form</h3> 
+
+<form> 
+
+<fieldset> 
+<legend>Personal Details</legend> 
+
+Name: <input type="text" name="name"><br><br> 
+Email: <input type="text" name="email"><br><br> 
+
+</fieldset> 
+
+<br> 
+
+<fieldset> 
+<legend>Gender</legend> 
+
+<input type="radio" name="g"> Male<br> 
+<input type="radio" name="g"> Female<br> 
+
+</fieldset> 
+
+<br> 
+
+<fieldset> 
+<legend>Course Selection</legend> 
+
+Select Course: 
+<select> 
+<option>AI</option> 
+<option>Data Science</option> 
+<option>Web Development</option> 
+</select> 
+
+</fieldset> 
+
+<br> 
+
+<fieldset> 
+<legend>Skills</legend> 
+
+<input type="checkbox"> Coding<br> 
+<input type="checkbox"> Research<br> 
+
+</fieldset> 
+
+<br> 
+
+<input type="submit" value="Submit"> 
+
+</form> 
+
+</body> 
+</html>
