@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tribute Page</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 30px;
+    }
+
+    /* Section */
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    /* Image */
+    img {
+      display: block;
+      margin: auto;
+      width: 200px;
+      border-radius: 50%;
+      border: 3px solid black;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+
+</head>
+<body>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Achievements</a>
+  <a href="#">Contact</a>
+</nav>
+
+<header>
+  <h1>Dr. A.P.J. Abdul Kalam</h1>
+  <p>Missile Man of India</p>
+</header>
+
+<section>
+  <h2>About</h2>
+  <img src="https://allworldspresidents.com/wp-content/uploads/2025/05/Abdul-Kalam.jpg.png" alt="A.P.J.Abdul Kalam" width="150" height="150">
+
+  <p>
+    Dr. A.P.J. Abdul Kalam was a great scientist and the 11th President of India. 
+    He inspired millions with his knowledge and humility.
+  </p>
+</section>
+
+<section>
+  <h2>Achievements</h2>
+  <ul>
+    <li>Worked on India's missile programs</li>
+    <li>President of India (2002–2007)</li>
+    <li>Bharat Ratna Award Winner</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Made for Web Designing Project</p>
+</footer>
+
+</body>
+</html>
+ 
